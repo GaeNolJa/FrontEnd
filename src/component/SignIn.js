@@ -42,7 +42,7 @@ function SignIn() {
                 {" "}
                 <input type="checkbox" id="hint" /> 로그인 유지하기
               </label>
-              <div className="autoLogin">아이디/비밀번호 찾기</div>
+              <div>아이디/비밀번호 찾기</div>
             </div>
           </Form>
         </Modal.Body>
@@ -50,6 +50,7 @@ function SignIn() {
           <Button variant="secondary" onClick={handleClose}>
             Sign In 
           </Button>
+          <div>Don't have an account? Sign up for free</div>
         </Modal.Footer>
       </Modal>
     </>
